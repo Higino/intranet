@@ -2,7 +2,7 @@ version: '2'
 
 services:
   tiki:
-    image: enear-intranet:latest
+    image: intranet:0.1
     container_name: tiki_server
     volumes:
       - ./conf/memcached.ini:/usr/local/etc/php/conf.d/memcached.ini
