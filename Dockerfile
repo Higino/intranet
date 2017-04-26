@@ -1,4 +1,4 @@
-FROM montefuscolo/tiki-wiki:16x
+FROM montefuscolo/tikiwiki:latest
 MAINTAINER Higino Silva <higino@gmail.com>
 
 #Copy enear images to be used in site template
